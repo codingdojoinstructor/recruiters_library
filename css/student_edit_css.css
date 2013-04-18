@@ -1,0 +1,21 @@
+.wrapper{
+	margin-top: 80px;
+}
+#forms{
+	float: left;
+}
+#forms label{
+	display: inline-block;
+	float: left;
+}
+#forms input{
+	display: inline-block;
+	float: right;
+}
+.clear{
+	clear: both;
+}
+img{
+	float: right;
+	width: 320px;
+}

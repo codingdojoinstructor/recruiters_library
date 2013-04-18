@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+	<head>
+		<meta charset="UTF-8">
+		<title>Student Edit</title>
+		<link href="css/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+		<link rel="stylesheet" type="text/css" href="css/partial_top_menu_css.css">
+		<link rel="stylesheet" type="text/css" href="css/student_edit_css.css">
+		<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				
+			});
+		</script>
+	</head>
+	<body>
+		<div class="wrapper">
+			<img src="small_profile_pictures - Copy/jose2.jpg" alt="jose">
+			<div id="forms" class="well span7">
+				<form id="student_edit">
+					<legend>Update Project Information</legend>
+					<label>Full Name:</label>
+					<input type="text" name="full_name">
+					<div class="clear"></div>
+					<label>Project 1 name:</label>
+					<input type="text" name="project_1_name">
+					<div class="clear"></div>
+					<label>Project 1 video url:</label>
+					<input type="text" name="project_1_url">
+					<div class="clear"></div>				
+					<label>Project 2 name:</label>
+					<input type="text" name="project_2_name">
+					<div class="clear"></div>
+					<label>Project 2 video url:</label>
+					<input type="text" name="project_2_url">
+					<div class="clear"></div>
+					<label>Project 3 name:</label>
+					<input type="text" name="project_3_name">
+					<div class="clear"></div>
+					<label>Project 3 video url:</label>
+					<input type="text" name="project_3_url">
+					<div class="clear"></div>
+					<label>Google Resume Link:</label>
+					<input type="text" name="resume_link">
+					<div class="clear"></div>
+					<input type="submit" class="btn btn-info" value="Update"/>
+				</form>
+				<form id="student_change_pass">
+					<legend>Change Password</legend>
+					<label>Current Password:</label>
+					<input type="password" name="current_pass">
+					<div class="clear"></div>
+					<label>New Password:</label>
+					<input type="password" name="new_pass">
+					<div class="clear"></div>
+					<label>Confirm New Password:</label>
+					<input type="password" name="new_pass_confirm">
+					<div class="clear"></div>
+					<input type="submit" class="btn btn-info" value="Update">
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
